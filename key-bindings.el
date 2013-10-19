@@ -1,3 +1,5 @@
+;; key-bindings.el
+
 ;; alternative to Alt+x
 (global-set-key "\C-x\C-m" 'execute-extended-command)
 (global-set-key "\C-c\C-m" 'execute-extended-command)
@@ -52,3 +54,6 @@
 
 (global-set-key (kbd "<C-S-down>") 'move-line-down)
 (global-set-key (kbd "<C-S-up>") 'move-line-up)
+
+(provide 'key-bindings)
+;;; key-bindings.el ends here
