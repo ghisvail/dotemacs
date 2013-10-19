@@ -34,3 +34,5 @@
 
 (add-hook 'prog-mode-hook 'esk-turn-on-hl-line-mode)
 
+(provide 'more-defaults)
+;;; more-defaults.el ends here
